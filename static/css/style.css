@@ -14,10 +14,10 @@
 
 /* Add any other specific styles here that Tailwind doesn't easily cover */
 /* For example, for a fixed-size block */
-/* .function-block {
+ .function-block {
     width: 400px;
     height: 200px;
-} */
+} 
 
 /* Custom styles for the table preview */
 .data-preview-table th, .data-preview-table td {
@@ -31,21 +31,21 @@
 
 /* REMOVE OR COMMENT OUT THESE SECTIONS IF YOU ARE PURELY USING TAILWIND'S DARK MODE */
 /* Light mode (default) - If you use Tailwind's dark: classes, these are redundant */
-/* :root {
+:root {
     --background-color: #ffffff;
     --text-color: #333333;
     --primary-color: #007bff;
-} */
+} 
 
 /* Dark mode styles - If you use Tailwind's dark: classes, these are redundant */
-/* .dark-mode {
+.dark-mode {
     --background-color: #1a1a1a;
     --text-color: #f0f0f0;
     --primary-color: #66b3ff;
-} */
+} 
 
 /* These body and button styles are covered by Tailwind classes already in your HTML */
-/* body {
+ body {
     background-color: var(--background-color);
     color: var(--text-color);
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -54,4 +54,4 @@
 button {
     background-color: var(--primary-color);
     color: var(--text-color);
-} */
+} 
